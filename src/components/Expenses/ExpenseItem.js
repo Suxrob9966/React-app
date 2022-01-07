@@ -7,7 +7,7 @@ const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title); // must be called directly inside component function. It always returns an array with exactly 2 elements. First element is current state value, second is the function to update that value
 
   function clickHandler() {
-    setTitle("Updated!");
+    setTitle("Updated!"); // pass new value to title
     console.log("Clicked!!");
   }
 
