@@ -1,7 +1,8 @@
 import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
 import "./ExpenseItem.css";
-import React, { useState } from "react";
+import React from "react";
+// import { useState } from "react";
 
 const ExpenseItem = (props) => {
   // const [title, setTitle] = useState(props.title); // must be called directly inside component function. It always returns an array with exactly 2 elements. First element is current state value, second is the function to update that value
